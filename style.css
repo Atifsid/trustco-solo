@@ -3,6 +3,7 @@
     --dark: #12141D;
     --gray: #F2F5F6;
     --white: #ffffff;
+    --black: #000000;
     --header-height: 5rem;
     --common-width: 90.00rem;
 }
@@ -30,6 +31,14 @@ button {
     color: var(--white);
     border: none;
 }
+
+img {
+    object-fit: contain;
+}
+
+/* 
+    Hero Section
+*/
 
 #hero {
     background-color: var(--gray);
@@ -231,4 +240,46 @@ button {
     #hero {
         height: fit-content !important;
     }
+}
+
+/* 
+    Brand Section
+*/
+
+.brands-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem 10rem;
+}
+
+.brand-text {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.google {
+    width: 6rem;
+    height: 2rem;
+}
+
+.atlassian {
+    width: 8.5rem;
+    height: 1rem;
+}
+
+.canon {
+    width: 6rem;
+    height: 1.25rem;
+}
+
+.walmart {
+    width: 8rem;
+    height: 2rem;
+}
+
+.amazon {
+    width: 6rem;
+    height: 2rem;
 }
