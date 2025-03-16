@@ -43,14 +43,35 @@ button {
     height: 21rem;
     width: 12.38rem;
     position: absolute;
-    left: 10%;
+    left: 20%;
 }
 
 .hero-2 {
     height: 21rem;
     width: 12.38rem;
     position: absolute;
-    right: 10%;
+    right: 20%;
+}
+
+.temp-hero-img-wrapper {
+    display: none;
+    justify-content: center;
+}
+
+.temp-hero-imgs {
+    display: flex;
+    align-items: center;
+}
+
+.temp-hero-1 {
+    height: 17rem;
+    width: 10rem;
+}
+
+.temp-hero-2 {
+    height: 17rem;
+    width: 10rem;
+    padding-top: 2rem;
 }
 
 #hero .headline {
@@ -88,7 +109,7 @@ button {
 .hero-container {
     display: flex;
     align-items: center;
-    padding: 8rem 22.38rem;
+    padding: 8rem 36rem;
     position: relative;
 }
 
@@ -97,6 +118,7 @@ button {
     border-radius: 3.5rem;
     font-weight: 700;
     box-shadow: 0px 23px 47px 0px #043A533D;
+    font-size: 1.15rem;
 }
 
 .hero-play-btn {
@@ -121,10 +143,92 @@ button {
 .check-video {
     color: var(--primary);
     font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .hero-play-btn-container {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .hero-container {
+        padding: 8rem 16rem !important;
+    }
+
+    .hero-1 {
+        left: 5% !important;
+    }
+
+    .hero-2 {
+        right: 5% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-container {
+        padding: 8rem 10rem !important;
+    }
+
+    .hero-1 {
+        left: 1% !important;
+    }
+
+    .hero-2 {
+        right: 1% !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hero-container {
+        padding: 8rem 6rem !important;
+    }
+
+    .hero-1 {
+        display: none !important;
+    }
+
+    .hero-2 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container {
+        padding: 8rem 1.5rem !important;
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+
+    .headline {
+        font-size: 2.25rem !important;
+    }
+
+    .subheadline {
+        font-size: 1rem !important;
+    }
+
+    .hero-1 {
+        display: none !important;
+    }
+
+    .hero-2 {
+        display: none !important;
+    }
+
+    .hero-btns-row {
+        display: grid !important;
+        grid-template-columns: auto !important;
+        gap: 2rem;
+    }
+
+    .temp-hero-img-wrapper {
+        display: flex !important;
+        margin-top: 3.75rem;
+    }
+
+    #hero {
+        height: fit-content !important;
+    }
 }
