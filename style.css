@@ -25,49 +25,32 @@ body {
     width: var(--common-width);
 }
 
-.flex {
-    display: flex;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.flex-col {
-    flex-direction: column;
-}
-
 button {
     background-color: var(--primary);
     color: var(--white);
     border: none;
 }
 
-.gap-32 {
-    gap: 2.00rem;
-}
-
 #hero {
     background-color: var(--gray);
     height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-1 {
     height: 21rem;
     width: 12.38rem;
+    position: absolute;
+    left: 10%;
 }
 
 .hero-2 {
     height: 21rem;
-    width: 13.50rem;
+    width: 12.38rem;
+    position: absolute;
+    right: 10%;
 }
 
 #hero .headline {
@@ -91,8 +74,22 @@ button {
     margin-top: 1rem;
 }
 
+.hero-btns-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-btns-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 .hero-container {
-    padding: 8rem 11rem;
+    display: flex;
+    align-items: center;
+    padding: 8rem 22.38rem;
+    position: relative;
 }
 
 .hero-btn-1 {
@@ -124,4 +121,10 @@ button {
 .check-video {
     color: var(--primary);
     font-weight: 700;
+}
+
+.hero-play-btn-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
