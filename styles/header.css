@@ -1,0 +1,100 @@
+/* 
+    Header Section
+*/
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray);
+}
+
+.header {
+    padding: 2.25rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo {
+    width: 3.75rem;
+    height: 1.50rem;
+}
+
+.logo-name {
+    width: 6rem;
+    height: 1.25rem;
+}
+
+.menu-list {
+    display: flex;
+    gap: 2.50rem;
+}
+
+.menu-item {
+    color: var(--dark) !important;
+    font-size: 1rem !important;
+    opacity: 70%;
+    font-weight: 700;
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.login-btn {
+    background-color: var(--white) !important;
+    color: var(--dark) !important;
+    padding: 1rem 1.75rem;
+    border-radius: 2.63rem;
+    font-size: 1rem;
+    opacity: 70%;
+    font-weight: 700;
+}
+
+.signup-btn {
+    padding: 1rem 1.25rem;
+    border-radius: 2.63rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.menu-icon-wrapper {
+    display: none;
+}
+
+.menu-icon-wrapper .menu-icon {
+    height: 1.50rem;
+    width: 1.50rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #header {
+        background-color: var(--white) !important;
+    }
+
+    .header {
+        padding: 1.50rem 1.25rem !important;
+    }
+
+    .menu-list {
+        display: none !important;
+    }
+
+    .header-btns {
+        display: none !important;
+    }
+
+    .menu-icon-wrapper {
+        display: block !important;
+    }
+}

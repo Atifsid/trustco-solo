@@ -1,0 +1,71 @@
+/* 
+    Brand Section
+*/
+
+#brands {
+    display: flex;
+    justify-content: center;
+}
+
+.brands-container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3.50rem;
+    padding-bottom: 3.50rem;
+}
+
+.brand-text {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.google {
+    width: 6rem;
+    height: 2rem;
+}
+
+.atlassian {
+    width: 8.5rem;
+    height: 1rem;
+}
+
+.canon {
+    width: 6rem;
+    height: 1.25rem;
+}
+
+.walmart {
+    width: 8rem;
+    height: 2rem;
+}
+
+.amazon {
+    width: 6rem;
+    height: 2rem;
+}
+
+.brands-container-2 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .brands-container-1 {
+        display: none !important;
+    }
+
+    .brands-container-2 {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 1.25rem;
+        padding: 3rem 1.25rem;
+    }
+
+    .brand-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.50rem;
+    }
+}

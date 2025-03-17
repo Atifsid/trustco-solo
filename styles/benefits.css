@@ -1,0 +1,140 @@
+/* 
+    Benefits Section
+*/
+
+#benefits {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+}
+
+.benefits-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4.00rem;
+    padding: 0 1.25rem;
+}
+
+.elements-left {
+    max-width: 16.00rem;
+}
+
+.elements-left button {
+    padding: 4px 24px 4px 24px;
+    font-size: 1.13rem;
+    border-radius: 6.25rem;
+}
+
+.elements-left h4 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: var(--dark);
+    line-height: 4.50rem;
+    padding: 2.00rem 0;
+}
+
+.elements-left p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--dark);
+    line-height: 1.88rem;
+}
+
+.elements-right {
+    display: flex;
+    gap: 1.00rem;
+}
+
+.element-card {
+    background-color: var(--gray);
+    padding: 2.00rem 1.50rem;
+    border-radius: 1.00rem;
+    max-width: 16.50rem;
+}
+
+.element-card img {
+    object-fit: contain;
+    aspect-ratio: auto;
+}
+
+.element-card h6 {
+    font-weight: 700;
+    font-size: 1.50rem;
+    line-height: 2rem;
+    padding-top: 2.00rem;
+}
+
+.element-card p {
+    font-weight: 400;
+    font-size: 1.13rem;
+    line-height: 1.75rem;
+    padding-top: 0.63rem;
+}
+
+.illust1 {
+    width: 5.88rem;
+    height: 5.25rem;
+}
+
+.illust2 {
+    width: 6.63rem;
+    height: 5.25rem;
+}
+
+.illust3 {
+    width: 6.50rem;
+    height: 6.50rem;
+}
+
+@media screen and (max-width: 768px) {
+    #benefits {
+        margin-top: 3rem !important;
+    }
+
+    .benefits-container {
+        flex-direction: column !important;
+        gap: 2.00rem !important;
+    }
+
+    .elements-left {
+        margin: 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        max-width: fit-content !important;
+    }
+
+    .elements-left button {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .elements-right {
+        flex-direction: column !important;
+    }
+
+    .element-card {
+        max-width: fit-content !important;
+    }
+
+    .element-card h6 {
+        font-size: 1.25rem !important;
+        line-height: 1.88rem !important;
+    }
+
+    .element-card p {
+        font-size: 0.88rem !important;
+        line-height: 1.25rem !important;
+        padding-top: 0 !important;
+    }
+
+    .elements-left h4 {
+        font-size: 1.88rem !important;
+        padding: 0 !important;
+    }
+
+    .elements-left p {
+        font-size: 0.88rem !important;
+        line-height: 1.25rem !important;
+    }
+}

@@ -1,0 +1,129 @@
+/* 
+    Video Section
+*/
+
+#video {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+}
+
+.video-container {
+    padding-top: 6.25rem;
+    padding-left: 9.38rem;
+    padding-right: 9.38rem;
+}
+
+.video-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 9.75rem;
+}
+
+.video-heading-left {
+    color: var(--white);
+    font-size: 3.75rem;
+    line-height: 4.50rem;
+    width: 46%;
+}
+
+.video-heading-left span {
+    color: var(--yellow);
+}
+
+.video-heading-right {
+    font-size: 1.25rem;
+    color: var(--white);
+    line-height: 1.88rem;
+    width: 34%;
+}
+
+.video-thumbnail-container {
+    position: relative;
+    border-radius: 10px;
+    padding: 0 9.75rem;
+    padding-top: 4rem;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.play-button-container {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: var(--white);
+    padding: 36px 34px 34px 40px;
+    border-radius: 100%;
+}
+
+.play-button {
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .video-container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .video-heading {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .video-heading-left {
+        width: 100% !important;
+    }
+
+    .video-heading-right {
+        width: 100% !important;
+    }
+
+    .video-thumbnail-container {
+        padding: 0 !important;
+        padding-top: 4rem !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .video-container {
+        padding-top: 3.13rem !important;
+        padding-left: 1.25rem !important;
+        padding-right: 1.25rem !important;
+    }
+
+    .play-button-container {
+        padding: 14px 14px 12px 16px !important;
+    }
+
+    .play-button {
+        height: 1rem !important;
+        width: 1rem !important;
+    }
+
+    .video-heading {
+        gap: 1rem !important;
+    }
+
+    .video-heading-left {
+        font-size: 1.88rem !important;
+        line-height: 2.38rem !important;
+    }
+
+    .video-heading-right {
+        font-size: 0.88rem !important;
+        line-height: 1.25rem !important;
+    }
+
+    .video-thumbnail-container {
+        padding-top: 2rem !important;
+    }
+}
