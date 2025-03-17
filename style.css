@@ -242,15 +242,22 @@ img {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .hero-text {
+        padding: 0 !important;
+    }
+}
+
 /* 
     Brand Section
 */
 
-.brands-container {
+.brands-container-1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 3.5rem 10rem;
+    justify-content: space-evenly;
+    padding-top: 3.50rem;
+    padding-bottom: 3.50rem;
 }
 
 .brand-text {
@@ -282,4 +289,28 @@ img {
 .amazon {
     width: 6rem;
     height: 2rem;
+}
+
+.brands-container-2 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .brands-container-1 {
+        display: none !important;
+    }
+
+    .brands-container-2 {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 1.25rem;
+        padding: 3rem 1.25rem;
+    }
+
+    .brand-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.50rem;
+    }
 }
