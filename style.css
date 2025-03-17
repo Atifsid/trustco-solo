@@ -280,6 +280,11 @@ a:hover {
     Brand Section
 */
 
+#brands {
+    display: flex;
+    justify-content: center;
+}
+
 .brands-container-1 {
     display: flex;
     align-items: center;
