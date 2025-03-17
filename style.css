@@ -224,7 +224,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     .hero-container {
-        padding: 8rem 1.5rem !important;
+        padding: 3rem 7.5rem !important;
         display: grid !important;
         grid-template-columns: auto !important;
     }
@@ -264,6 +264,14 @@ a:hover {
 @media screen and (max-width: 768px) {
     .hero-text {
         padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero-container {
+        padding: 3rem 1.50rem !important;
+        display: grid !important;
+        grid-template-columns: auto !important;
     }
 }
 
@@ -341,6 +349,7 @@ a:hover {
 #header {
     position: sticky;
     top: 0;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     background-color: var(--gray);
@@ -401,4 +410,35 @@ a:hover {
     border-radius: 2.63rem;
     font-size: 1rem;
     font-weight: 700;
+}
+
+.menu-icon-wrapper {
+    display: none;
+}
+
+.menu-icon-wrapper .menu-icon {
+    height: 1.50rem;
+    width: 1.50rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #header {
+        background-color: var(--white) !important;
+    }
+
+    .header {
+        padding: 1.50rem 1.25rem !important;
+    }
+
+    .menu-list {
+        display: none !important;
+    }
+
+    .header-btns {
+        display: none !important;
+    }
+
+    .menu-icon-wrapper {
+        display: block !important;
+    }
 }
