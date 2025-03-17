@@ -8,6 +8,7 @@
 @import url(./styles/founder.css);
 @import url(./styles/bridge.css);
 @import url(./styles/testimonial.css);
+@import url(./styles/blog.css);
 
 main {
     display: flex;
