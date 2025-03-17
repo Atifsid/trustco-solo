@@ -1,0 +1,203 @@
+/* 
+    Founder Section
+*/
+
+#founder {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+}
+
+.founder-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.founder-left {
+    padding-left: 4.5rem;
+}
+
+.founder-left h4 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: var(--dark);
+}
+
+.founder-left p {
+    font-weight: 400;
+    font-size: 1.50rem;
+    line-height: 2.00rem;
+    color: var(--dark);
+    padding: 2.00rem 0;
+}
+
+.founder-left h5 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--dark);
+}
+
+.founder-left h6 {
+    font-weight: 400;
+    font-size: 1.00rem;
+    color: #404040;
+}
+
+.founder-left button {
+    display: flex;
+    align-items: center;
+    padding: 6px 8px 4px 18px;
+    gap: 25px;
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 1.13rem;
+    margin-top: 4.00rem;
+}
+
+.founder-left img {
+    background-color: #F2F5F629;
+    padding: 10px;
+    border-radius: 100%;
+    height: 1rem;
+    width: 1rem;
+}
+
+.founder-right {
+    position: relative;
+}
+
+.founder-img {
+    width: 38.75rem;
+    border-radius: 10px;
+}
+
+.crown {
+    position: absolute;
+    width: 7.50rem;
+    height: 4.50rem;
+    top: 30%;
+    right: 16%;
+    z-index: -1;
+}
+
+.crown img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.founder-girl {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    bottom: 5%;
+    left: 5%;
+    border-radius: 100%;
+    border: 3px solid white;
+    box-shadow: 0px 23px 47px 0px #043A533D;
+}
+
+.founder-girl img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .founder-girl {
+        bottom: 10% !important;
+        left: 8% !important;
+    }
+
+    .crown {
+        top: 28% !important;
+        right: 16% !important;
+    }
+
+    .founder-left h4 {
+        font-size: 3rem;
+    }
+
+    .founder-left p {
+        font-size: 1.2rem !important;
+        line-height: 1.5rem !important;
+    }
+
+    .founder-left button {
+        font-size: 0.8rem !important;
+        padding: 8px 8px 8px 12px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .founder-container {
+        flex-direction: column;
+    }
+
+    .founder-left {
+        text-align: center;
+        padding-left: 0 !important;
+        padding: 0 1.25rem !important;
+    }
+
+    .founder-left button {
+        margin: 2.00rem auto 0 !important;
+    }
+
+    .founder-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .founder-girl {
+        bottom: 5% !important;
+        left: 12% !important;
+    }
+
+    .crown {
+        top: 30% !important;
+        right: 23% !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .founder-left button {
+        font-size: 1.13rem !important;
+    }
+
+    .founder-img {
+        width: 26rem !important;
+    }
+
+    .crown {
+        width: 6rem !important;
+        top: 28% !important;
+        right: 16% !important;
+    }
+
+    .founder-girl {
+        width: 6rem !important;
+        height: 6rem !important;
+        bottom: 6% !important;
+        left: 8% !important;
+    }
+
+    .founder-left h4 {
+        font-size: 1.88rem !important;
+    }
+
+    .founder-left p,
+    h5 {
+        font-size: 1rem !important;
+    }
+
+    .founder-left h6 {
+        font-size: 0.75rem !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #founder {
+        margin-top: 3.13rem !important;
+    }
+}

@@ -1,0 +1,62 @@
+:root {
+    --primary: #043A53;
+    --dark: #12141D;
+    --gray: #F2F5F6;
+    --white: #ffffff;
+    --black: #000000;
+    --black-variant: #1E1E1E;
+    --header-height: 7.69rem;
+    --common-width: 90.00rem;
+    --yellow: #F0B73F
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato';
+    margin: 0 !important;
+}
+
+.w-common {
+    width: var(--common-width);
+}
+
+button {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    cursor: pointer !important;
+}
+
+img {
+    object-fit: contain;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: none !important;
+    color: var(--dark);
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: var(--primary) !important;
+}

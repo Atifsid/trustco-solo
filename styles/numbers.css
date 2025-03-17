@@ -1,0 +1,53 @@
+/* 
+    Numbers Section
+*/
+
+#numbers {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+}
+
+.numbers-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 6.25rem 0;
+}
+
+.numbers-container h4 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    letter-spacing: -2%;
+    text-align: center;
+    color: var(--primary);
+}
+
+.numbers-container h6 {
+    font-weight: 700;
+    font-size: 1.50rem;
+    text-align: center;
+    color: var(--black-variant);
+}
+
+@media screen and (max-width: 768px) {
+    .numbers-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 2rem;
+    }
+
+    .numbers-container h4 {
+        font-size: 2.25rem !important;
+    }
+
+    .numbers-container h6 {
+        font-size: 1rem !important;
+        padding-top: 0.5rem !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #numbers {
+        margin-top: 3.13rem !important;
+    }
+}

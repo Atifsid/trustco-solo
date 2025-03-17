@@ -1,0 +1,180 @@
+/* 
+    Bridge Section
+*/
+
+#bridge {
+    margin-top: 6.25rem;
+}
+
+.bridge-icon-left {
+    width: 40rem;
+    height: 43.75rem;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.bridge-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bridge-highlight {
+    color: #92A7B0;
+}
+
+.bridge-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bridge-wrapper h3 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 4.50rem;
+}
+
+.bridge-wrapper p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.88rem;
+    margin: 2rem 0;
+}
+
+.bridge-right {
+    width: 45%;
+    padding-right: 9.38rem;
+}
+
+.bridge-circle {
+    background-color: var(--primary);
+    position: absolute;
+    bottom: 8%;
+    right: -12%;
+    padding: 18px 55px;
+    border-radius: 100%;
+    border: 4px solid var(--white);
+    text-align: center;
+    color: var(--white);
+}
+
+.bridge-left {
+    position: relative;
+}
+
+.bridge-circle img {
+    height: 2rem;
+    width: 2rem;
+    background-color: #F2F5F629;
+    padding: 8px;
+    border-radius: 100%;
+    font-weight: 700;
+}
+
+.bridge-circle h4 {
+    font-size: 3rem;
+}
+
+.bridge-circle h6 {
+    font-size: 1rem;
+    line-height: 1.50rem;
+}
+
+.bridge-right button {
+    display: flex;
+    align-items: center;
+    padding: 6px 8px 4px 18px;
+    gap: 25px;
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 1.13rem;
+}
+
+.bridge-right img {
+    background-color: #F2F5F629;
+    padding: 10px;
+    border-radius: 100%;
+    height: 1rem;
+    width: 1rem;
+}
+
+.h6 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1440px) {
+    .bridge-wrapper {
+        gap: 8rem;
+    }
+
+    .bridge-right {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .bridge-wrapper {
+        gap: 8rem;
+        flex-direction: column;
+        right: -10% !important;
+    }
+
+    .bridge-left {
+        order: 2;
+    }
+
+    .bridge-right {
+        text-align: center;
+        width: 80% !important;
+        padding-right: 0 !important;
+        order: 1;
+    }
+
+    .bridge-right button {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bridge-left {
+        width: 100%;
+    }
+
+    .bridge-icon-left {
+        width: 21.06rem !important;
+        height: 24rem !important;
+    }
+
+    .bridge-circle {
+        right: 2% !important;
+        padding: 22px 28px 30px 28px !important;
+    }
+
+    .bridge-circle h4 {
+        font-size: 2.25rem !important;
+    }
+
+    .bridge-circle h6 {
+        font-size: 0.88rem !important;
+    }
+
+    .h6 {
+        flex-direction: row !important;
+        gap: 0.25rem;
+    }
+
+    .bridge-wrapper {
+        gap: 2.00rem !important;
+    }
+
+    .bridge-right h3 {
+        font-size: 1.88rem !important;
+        line-height: 2.38rem !important;
+    }
+
+    .bridge-right p {
+        font-size: 0.88rem !important;
+        line-height: 1.25rem !important;
+    }
+}
