@@ -28,3 +28,20 @@
     text-align: center;
     color: var(--black-variant);
 }
+
+@media screen and (max-width: 768px) {
+    .numbers-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 2rem;
+    }
+
+    .numbers-container h4 {
+        font-size: 2.25rem !important;
+    }
+
+    .numbers-container h6 {
+        font-size: 1rem !important;
+        padding-top: 0.5rem !important;
+    }
+}
