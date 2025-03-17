@@ -18,6 +18,10 @@ h6 {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 body {
     font-family: 'Lato';
     margin: 0 !important;
@@ -593,6 +597,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     gap: 4.00rem;
+    padding: 0 1.25rem;
 }
 
 .elements-left {
@@ -664,4 +669,57 @@ a:hover {
 .illust3 {
     width: 6.50rem;
     height: 6.50rem;
+}
+
+@media screen and (max-width: 768px) {
+    #benefits {
+        margin-top: 3rem !important;
+    }
+
+    .benefits-container {
+        flex-direction: column !important;
+        gap: 2.00rem !important;
+    }
+
+    .elements-left {
+        margin: 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        max-width: fit-content !important;
+    }
+
+    .elements-left button {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .elements-right {
+        flex-direction: column !important;
+    }
+
+    .element-card {
+        max-width: fit-content !important;
+    }
+
+    .element-card h6 {
+        font-size: 1.25rem !important;
+        line-height: 1.88rem !important;
+    }
+
+    .element-card p {
+        font-size: 0.88rem !important;
+        line-height: 1.25rem !important;
+        padding-top: 0 !important;
+    }
+
+    .elements-left h4 {
+        font-size: 1.88rem !important;
+        padding: 0 !important;
+    }
+
+    .elements-left p {
+        font-size: 0.88rem !important;
+        line-height: 1.25rem !important;
+    }
 }
