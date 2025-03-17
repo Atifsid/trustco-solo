@@ -6,12 +6,12 @@
     display: flex;
     justify-content: center;
     margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
 }
 
 .numbers-container {
     display: flex;
     justify-content: space-around;
+    padding: 6.25rem 0;
 }
 
 .numbers-container h4 {
