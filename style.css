@@ -4,7 +4,7 @@
     --gray: #F2F5F6;
     --white: #ffffff;
     --black: #000000;
-    --header-height: 5rem;
+    --header-height: 7.69rem;
     --common-width: 90.00rem;
 }
 
@@ -30,10 +30,29 @@ button {
     background-color: var(--primary);
     color: var(--white);
     border: none;
+    cursor: pointer !important;
 }
 
 img {
     object-fit: contain;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: none !important;
+    color: var(--dark);
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: var(--primary) !important;
 }
 
 /* 
@@ -42,7 +61,7 @@ img {
 
 #hero {
     background-color: var(--gray);
-    height: calc(100vh);
+    height: calc(100vh - var(--header-height));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,4 +332,73 @@ img {
         align-items: center;
         gap: 1.50rem;
     }
+}
+
+/* 
+    Header Section
+*/
+
+#header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray);
+}
+
+.header {
+    padding: 2.25rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo {
+    width: 3.75rem;
+    height: 1.50rem;
+}
+
+.logo-name {
+    width: 6rem;
+    height: 1.25rem;
+}
+
+.menu-list {
+    display: flex;
+    gap: 2.50rem;
+}
+
+.menu-item {
+    color: var(--dark) !important;
+    font-size: 1rem !important;
+    opacity: 70%;
+    font-weight: 700;
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.login-btn {
+    background-color: var(--white) !important;
+    color: var(--dark) !important;
+    padding: 1rem 1.75rem;
+    border-radius: 2.63rem;
+    font-size: 1rem;
+    opacity: 70%;
+    font-weight: 700;
+}
+
+.signup-btn {
+    padding: 1rem 1.25rem;
+    border-radius: 2.63rem;
+    font-size: 1rem;
+    font-weight: 700;
 }
