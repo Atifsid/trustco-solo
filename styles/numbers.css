@@ -1,0 +1,30 @@
+/* 
+    Numbers Section
+*/
+
+#numbers {
+    display: flex;
+    justify-content: center;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+
+.numbers-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.numbers-container h4 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    letter-spacing: -2%;
+    text-align: center;
+    color: var(--primary);
+}
+
+.numbers-container h6 {
+    font-weight: 700;
+    font-size: 1.50rem;
+    text-align: center;
+    color: var(--black-variant);
+}
