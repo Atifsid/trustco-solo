@@ -1,0 +1,99 @@
+/* 
+    Bridge Section
+*/
+
+#bridge {
+    margin-top: 6.25rem;
+}
+
+.bridge-icon-left {
+    width: 36rem;
+    height: 46rem;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.bridge-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bridge-highlight {
+    color: #92A7B0;
+}
+
+.bridge-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9.50rem;
+}
+
+.bridge-wrapper h3 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 4.50rem;
+}
+
+.bridge-wrapper p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.88rem;
+    margin: 2rem 0;
+}
+
+.bridge-right {
+    width: 45%;
+}
+
+.bridge-circle {
+    background-color: var(--primary);
+    position: absolute;
+    bottom: 8%;
+    right: -12%;
+    padding: 18px 55px;
+    border-radius: 100%;
+    border: 4px solid var(--white);
+    text-align: center;
+    color: var(--white);
+}
+
+.bridge-left {
+    position: relative;
+}
+
+.bridge-circle img {
+    height: 2rem;
+    width: 2rem;
+    background-color: #F2F5F629;
+    padding: 8px;
+    border-radius: 100%;
+    font-weight: 700;
+}
+
+.bridge-circle h4 {
+    font-size: 3rem;
+}
+
+.bridge-circle h6 {
+    font-size: 1rem;
+    line-height: 1.50rem;
+}
+
+.bridge-right button {
+    display: flex;
+    align-items: center;
+    padding: 6px 8px 4px 18px;
+    gap: 25px;
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 1.13rem;
+}
+
+.bridge-right img {
+    background-color: #F2F5F629;
+    padding: 10px;
+    border-radius: 100%;
+    height: 1rem;
+    width: 1rem;
+}
