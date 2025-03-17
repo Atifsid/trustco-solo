@@ -6,6 +6,7 @@
     --black: #000000;
     --header-height: 7.69rem;
     --common-width: 90.00rem;
+    --yellow: #F0B73F
 }
 
 h1,
@@ -279,6 +280,11 @@ a:hover {
     Brand Section
 */
 
+#brands {
+    display: flex;
+    justify-content: center;
+}
+
 .brands-container-1 {
     display: flex;
     align-items: center;
@@ -441,4 +447,74 @@ a:hover {
     .menu-icon-wrapper {
         display: block !important;
     }
+}
+
+/* 
+    Video Section
+*/
+
+#video {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+}
+
+.video-container {
+    padding-top: 6.25rem;
+    padding-left: 9.38rem;
+    padding-right: 9.38rem;
+}
+
+.video-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 9.75rem;
+}
+
+.video-heading-left {
+    color: var(--white);
+    font-size: 3.75rem;
+    line-height: 4.50rem;
+    width: 46%;
+}
+
+.video-heading-left span {
+    color: var(--yellow);
+}
+
+.video-heading-right {
+    font-size: 1.25rem;
+    color: var(--white);
+    line-height: 1.88rem;
+    width: 34%;
+}
+
+.video-thumbnail-container {
+    position: relative;
+    border-radius: 10px;
+    padding: 0 9.75rem;
+    padding-top: 4rem;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.play-button-container {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: var(--white);
+    padding: 36px 34px 34px 40px;
+    border-radius: 100%;
+}
+
+.play-button {
+    height: 2.25rem;
+    width: 2.25rem;
 }
