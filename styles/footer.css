@@ -64,3 +64,19 @@
     font-weight: 400;
     font-size: 1.13rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .footer-container {
+        flex-direction: column !important;
+    }
+
+    .footer-container p {
+        text-align: center !important;
+        color: var(--dark) !important;
+    }
+
+    .socials {
+        justify-content: center !important;
+    }
+}
