@@ -9,6 +9,7 @@
 @import url(./styles/bridge.css);
 @import url(./styles/testimonial.css);
 @import url(./styles/blog.css);
+@import url(./styles/cta.css);
 
 main {
     display: flex;
