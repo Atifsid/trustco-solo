@@ -106,6 +106,7 @@
 .card-top h6 span {
     font-family: Poppins !important;
     color: #6439FF !important;
+    cursor: pointer;
 }
 
 .card-bottom {
