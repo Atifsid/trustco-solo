@@ -193,3 +193,17 @@
         padding: 3.13rem 0 !important;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .blog-cards {
+        width: 21rem !important;
+    }
+
+    .blog-card:first-child {
+        margin-left: -84% !important;
+    }
+
+    .blog-heading h4 {
+        font-size: 1.50rem !important;
+    }
+}

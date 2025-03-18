@@ -59,7 +59,7 @@
         display: flex !important;
         flex-direction: column !important;
         gap: 1.25rem;
-        padding: 3rem 1.25rem;
+        padding: 3rem 0;
     }
 
     .brand-center {
@@ -67,5 +67,11 @@
         justify-content: center;
         align-items: center;
         gap: 1.50rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .brands-container-2 {
+        width: 20rem !important;
     }
 }
