@@ -11,6 +11,7 @@
 @import url(./styles/blog.css);
 @import url(./styles/cta.css);
 @import url(./styles/footer.css);
+@import url(./styles/contact.css);
 
 main {
     display: flex;

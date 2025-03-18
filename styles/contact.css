@@ -1,0 +1,7 @@
+@import url(/styles/help.css);
+@import url(/styles/send-message.css);
+
+#contact #footer .footer-wrapper {
+    margin-top: 0 !important;
+    margin-bottom: 5rem;
+}
