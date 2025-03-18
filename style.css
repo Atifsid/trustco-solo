@@ -10,6 +10,7 @@
 @import url(./styles/testimonial.css);
 @import url(./styles/blog.css);
 @import url(./styles/cta.css);
+@import url(./styles/footer.css);
 
 main {
     display: flex;

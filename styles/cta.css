@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     background-color: var(--dark);
-    margin-bottom: 6.60rem;
     order: 6;
     z-index: -10;
 }
