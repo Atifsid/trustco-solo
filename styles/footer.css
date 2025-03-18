@@ -78,6 +78,7 @@
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    border-bottom: 1px solid #000000;
 }
 
 .collaborator-card {
@@ -140,7 +141,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid #000000;
     padding: 1.50rem 9.38rem;
     background-color: var(--gray);
 }
