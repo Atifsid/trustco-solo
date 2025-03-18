@@ -130,6 +130,52 @@
     gap: 1.19rem;
 }
 
+.credit-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000000;
+    padding: 1.50rem 9.38rem;
+    background-color: var(--gray);
+}
+
+.credit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #92A7B0;
+    letter-spacing: 0.06rem;
+}
+
+.policy {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.policy h6 {
+    cursor: pointer;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    gap: 0.31rem;
+    cursor: pointer;
+}
+
+.world {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.down {
+    height: 1rem;
+    width: 1rem;
+}
+
 @media screen and (max-width: 768px) {
 
     .footer-main {
