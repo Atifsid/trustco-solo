@@ -3,14 +3,16 @@
 */
 
 #footer {
-    display: flex;
-    justify-content: center;
     margin: 0;
     margin-top: 5rem;
-    margin-bottom: 5rem;
 }
 
-.footer-container {
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +36,7 @@
     width: 2.5rem;
 }
 
-.footer-container p {
+.footer-main p {
     color: #404040;
     font-weight: 400;
     font-size: 1.13rem;
@@ -65,13 +67,75 @@
     font-size: 1.13rem;
 }
 
+.collaborator-container {
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.collaborator-card {
+    background-color: var(--white);
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+    border-radius: 1.25rem;
+    border: 1px solid #888888;
+}
+
+.collaborators img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+}
+
+.card-top {
+    text-align: center;
+    padding: 1.88rem 6.25rem;
+    border-bottom: 1px solid #888888;
+}
+
+.card-top h6 {
+    font-family: Poppins !important;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01rem;
+    color: #444444;
+}
+
+.card-top h6 span {
+    font-family: Poppins !important;
+    color: #6439FF !important;
+}
+
+.card-bottom {
+    padding: 1.88rem 6.25rem;
+}
+
+.card-bottom h6 {
+    text-align: center;
+    font-family: Poppins !important;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01rem;
+    color: #444444;
+    margin-bottom: 1.88rem;
+}
+
+.collaborators {
+    display: flex;
+    justify-content: center;
+    gap: 1.19rem;
+}
+
 @media screen and (max-width: 768px) {
 
-    .footer-container {
+    .footer-main {
         flex-direction: column !important;
     }
 
-    .footer-container p {
+    .footer-main p {
         text-align: center !important;
         color: var(--dark) !important;
     }
