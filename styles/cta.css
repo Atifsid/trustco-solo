@@ -18,7 +18,7 @@
 }
 
 .cta-left {
-    padding-left: 9.38rem;
+    padding-left: 2rem;
 }
 
 .cta-left h2 {
@@ -60,34 +60,65 @@
 }
 
 .cta-right {
-    padding-right: 6.69rem;
     position: relative;
 }
 
-.cta-girl {
+.cta-girl-wrapper {
+    overflow: hidden;
+    height: 23rem;
     width: 45.19rem;
-    object-fit: contain;
+}
+
+.cta-girl-wrapper img {
+    height: 31.25rem;
+    width: 60rem;
+}
+
+.cta-yellow {
+    background-color: var(--yellow);
+    width: fit-content;
+    height: 12.5rem;
+    box-shadow: 10px 13px 30px 0px #043A533D;
+    border-top-left-radius: 62rem;
+    border-top-right-radius: 62rem;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 14%;
+    z-index: -1;
+}
+
+.cta-yellow img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.cta-blue {
+    background-color: var(--primary);
+    width: fit-content;
+    height: 6.5rem;
+    box-shadow: 10px 13px 30px 0px #043A533D;
+    border-top-left-radius: 62rem;
+    border-top-right-radius: 62rem;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 27%;
+}
+
+.cta-blue img {
+    width: 3rem;
+    height: 3rem;
 }
 
 .cta-crown {
-    width: 4.5rem;
     position: absolute;
-    left: 1%;
-    bottom: 8%;
+    bottom: 57px;
+    left: 26.8%;
     z-index: -1;
 }
 
-.cta-star {
-    width: 10rem;
-    position: absolute;
-    bottom: 0%;
-    left: 54%;
-}
-
-.cta-search {
-    width: 11rem;
-    position: absolute;
-    bottom: 0%;
-    right: 7.5%;
-    z-index: -1;
+.cta-crown img {
+    width: 3rem;
+    height: 3rem;
 }
