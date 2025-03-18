@@ -61,10 +61,16 @@
 }
 
 .footer-right li:not(.list-heading) {
-    padding-top: 1.25rem;
-    color: #404040;
+    margin-top: 1.25rem;
+    color: #404040 !important;
     font-weight: 400;
     font-size: 1.13rem;
+}
+
+.footer-right li:not(.list-heading):hover {
+    color: var(--primary) !important;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
 }
 
 .collaborator-container {
