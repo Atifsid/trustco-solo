@@ -77,3 +77,57 @@
     height: 1.5rem;
     width: 1.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+
+    #here-to-help {
+        height: fit-content !important;
+        padding: 2.5rem 0px !important;
+    }
+
+    .help-card {
+        max-width: 16rem !important;
+    }
+
+    .help-container h2 {
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #here-to-help {
+        background-color: var(--white) !important;
+    }
+
+    .help-container h3 {
+        font-size: 1rem !important;
+        line-height: 120% !important;
+    }
+
+    .help-cards {
+        text-align: center !important;
+        flex-direction: column !important;
+    }
+
+    .help-card {
+        max-width: fit-content !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .help-cards {
+        text-align: left !important;
+        flex-direction: column !important;
+        padding: 2rem 1.25rem !important;
+    }
+
+    .help-card {
+        max-width: fit-content !important;
+    }
+
+    .help-container h3 {
+        max-width: 21rem !important;
+    }
+}
