@@ -176,6 +176,26 @@
     width: 1rem;
 }
 
+.policy a {
+    color: #92A7B0 !important;
+}
+
+#language {
+    background-color: var(--gray);
+    border: none;
+    padding-top: 0.13rem;
+    color: #92A7B0 !important;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
 
     .footer-main {
