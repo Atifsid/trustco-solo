@@ -39,10 +39,6 @@
     font-size: 1.13rem;
 }
 
-#carousel-1-blog {
-    display: none;
-}
-
 .blog-heading .app-name {
     color: var(--primary);
 }
@@ -118,4 +114,82 @@
 .read-blog img {
     height: 1.50rem;
     width: 1.50rem;
+}
+
+#see-all-2-blog {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-heading h4 {
+        font-size: 2.5rem !important;
+    }
+
+    .blog-text h6 {
+        font-size: 0.8rem !important;
+        min-height: 2rem !important;
+    }
+
+    .blog-text h4 {
+        font-size: 1rem !important;
+    }
+
+    .blog-text p {
+        font-size: 0.88rem !important;
+        line-height: 1.2rem !important;
+    }
+
+    .read-blog {
+        font-size: 0.8rem !important;
+    }
+
+    .read-blog img {
+        height: 1rem !important;
+        width: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .blog-cards {
+        flex-direction: row;
+        overflow-x: hidden;
+        gap: 1rem;
+        padding: 2rem 1rem;
+        width: 24rem;
+    }
+
+    .blog-card {
+        min-width: 18.00rem !important;
+    }
+
+    .blog-card:first-child {
+        margin-left: -68% !important;
+    }
+
+    #see-all-1-blog {
+        display: none !important;
+    }
+
+    #see-all-2-blog {
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .blog-heading {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .blog-heading h4 {
+        font-size: 1.88rem !important;
+    }
+
+    #blog {
+        padding: 3.13rem 0 !important;
+    }
+
+    #testimonial {
+        padding: 3.13rem 0 !important;
+    }
 }
