@@ -219,9 +219,10 @@
 @media screen and (max-width: 375px) {
     .testimonial-cards {
         width: 21rem !important;
+        gap: 0.8rem !important;
     }
 
     .testimonial-card:first-child {
-        margin-left: -97% !important;
+        margin-left: -96% !important;
     }
 }

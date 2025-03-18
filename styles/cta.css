@@ -204,3 +204,21 @@
         width: 3.5rem !important;
     }
 }
+
+@media screen and (max-width: 375px) {
+
+    .cta-girl-wrapper {
+        width: 22rem !important;
+    }
+
+    .cta-girl-wrapper img {
+        height: 28rem !important;
+        width: 30rem !important;
+    }
+
+    .cta-crown {
+        left: 2% !important;
+        bottom: 19% !important;
+    }
+
+}
