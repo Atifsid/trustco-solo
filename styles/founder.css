@@ -200,4 +200,8 @@
     #founder {
         margin-top: 3.13rem !important;
     }
+
+    .founder-img {
+        width: 20rem !important;
+    }
 }

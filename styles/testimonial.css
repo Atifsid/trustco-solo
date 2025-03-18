@@ -215,3 +215,13 @@
         flex-direction: column !important;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .testimonial-cards {
+        width: 21rem !important;
+    }
+
+    .testimonial-card:first-child {
+        margin-left: -97% !important;
+    }
+}
