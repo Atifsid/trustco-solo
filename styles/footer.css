@@ -216,6 +216,15 @@ select::-ms-expand {
     .socials {
         justify-content: center !important;
     }
+
+    .credit-container {
+        flex-direction: column !important;
+        gap: 2rem !important;
+    }
+
+    .policy {
+        gap: 5rem !important;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -242,5 +251,9 @@ select::-ms-expand {
 
     .card-bottom {
         padding: 1.88rem 0.63rem !important;
+    }
+
+    .credit-wrapper {
+        padding: 1.50rem 1rem !important;
     }
 }
