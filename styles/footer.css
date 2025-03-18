@@ -145,3 +145,30 @@
         justify-content: center !important;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .collaborator-card {
+        max-width: 24rem;
+    }
+
+    .collaborators {
+        flex-wrap: wrap;
+    }
+
+    .collaborators img {
+        height: 3.75rem !important;
+        width: 3.75rem !important;
+    }
+
+    .card-top {
+        padding: 1.88rem 1.53rem !important;
+    }
+
+    .card-top h6 {
+        font-size: 0.88rem !important;
+    }
+
+    .card-bottom {
+        padding: 1.88rem 0.63rem !important;
+    }
+}
