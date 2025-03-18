@@ -1,0 +1,66 @@
+/* 
+    Footer Section
+*/
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.5rem;
+    padding: 0 2rem;
+}
+
+.app-logo {
+    width: 12.20rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    padding-top: 3.13rem;
+    gap: 1rem;
+}
+
+.socials img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.footer-container p {
+    color: #404040;
+    font-weight: 400;
+    font-size: 1.13rem;
+    line-height: 1.74rem;
+    max-width: 24.50rem;
+}
+
+.footer-right {
+    display: flex;
+    gap: 5.63rem;
+}
+
+.footer-right ul {
+    padding: 0;
+}
+
+.list-heading {
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: calc(2rem - 1.25rem);
+}
+
+.footer-right li:not(.list-heading) {
+    padding-top: 1.25rem;
+    color: #404040;
+    font-weight: 400;
+    font-size: 1.13rem;
+}
