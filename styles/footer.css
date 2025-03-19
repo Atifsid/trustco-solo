@@ -229,7 +229,7 @@ select::-ms-expand {
 
 @media screen and (max-width: 425px) {
     .collaborator-card {
-        max-width: 24rem;
+        max-width: 22rem;
     }
 
     .collaborators {
