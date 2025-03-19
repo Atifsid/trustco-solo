@@ -163,11 +163,12 @@
 
 @media screen and (max-width: 425px) {
     .testimonial-cards {
-        width: 24.06rem !important;
+        width: 24rem !important;
+        padding: 2rem 0rem !important;
     }
 
     .testimonial-card {
-        min-width: 17rem !important;
+        min-width: 15rem !important;
         padding: 1.50rem !important;
     }
 
@@ -185,7 +186,7 @@
     }
 
     .testimonial-card:first-child {
-        margin-left: -77% !important;
+        margin-left: -65% !important;
     }
 
     .testimonial-heading h4 {
@@ -213,16 +214,5 @@
 
     .testimonial-heading {
         flex-direction: column !important;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .testimonial-cards {
-        width: 21rem !important;
-        gap: 0.8rem !important;
-    }
-
-    .testimonial-card:first-child {
-        margin-left: -96% !important;
     }
 }
